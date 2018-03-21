@@ -14,7 +14,7 @@ install:
 - conda config --set always_yes yes;
 - if ! command -v pygmentize > /dev/null; then conda install pygments; fi
 - if ! command -v tectonic > /dev/null; then conda install tectonic; fi
-- conda update conda --all
+- conda update conda --all --no-channel-priority
 script:
 - bash bin/report
 deploy:
