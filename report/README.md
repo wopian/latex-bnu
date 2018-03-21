@@ -46,4 +46,12 @@ To run these commands on Windows, either:
 - Enter into a bash shell and run the commands or (`bash` -> `bin/report` -> `exit`)
 - Run bash in interactive mode in CMD or PowerShell (`bash -i bin/report`)
 
+## Visual Studio Code
+
+LaTeX compilation can be automatically built on changes using the `James-Yu.latex-workshop` package. This repository is setup to build when LaTeX files are saved. Right click on a LaTeX file and select `Build LaTeX project` to manually compile.
+
+The PDF can be viewed by clicking the magnifiying glass icon with a red tab ![](https://i.imgur.com/yqIP50C.png)
+
+The PDF panel will automatically refresh on Linux and macOS. On Windows you will have to reopen the panel to see changes until the [bug in LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop/issues/404) is resolved.
+
 [miniconda]: https://conda.io/miniconda.html
