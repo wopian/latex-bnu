@@ -7,15 +7,16 @@
 ## Requirements
 
 - Linux, macOS or Windows Subsystem for Linux*
-- [miniconda]
+- [miniconda]** with python 3
 - pygments
 - tectonic
 
-\* Tectonic does not natively support Windows currently
+<sub>\* [Tectonic](https://github.com/tectonic-typesetting/tectonic/issues/32) does not natively support Windows currently</sub><br>
+<sub>\*\* Available natively on Windows, but use Linux installation in WSL due to Tectonic</sub>
 
 ## Setup
 
-1. Install [miniconda]
+1. Install [miniconda] with python 3
 2. `conda config --add channels conda-forge`
 3. `conda update --all`
 4. `conda install pygments tectonic`
