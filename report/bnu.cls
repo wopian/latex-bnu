@@ -82,7 +82,7 @@
   \@thefnmark\hspace{0.8em}}%       or after \@thefnmark, aligning the footnote
   #1}%                  marks to the right or to the left, respectively
 \makeatother
-\linespread{1.3}
+\linespread{1.1}
 %\setlength{\parindent}{0em} % 0.2cm
 \setlength{\parskip}{1em}
 \setlength{\footnotesep}{1.1em}
