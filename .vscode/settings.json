@@ -1,11 +1,21 @@
 {
   "latex-workshop.latex.tools": [
     {
-      "name": "tectonic",
-      "command": "bash",
+      "name": "pygmentise",
+      "command": "node",
       "args": [
+        "../bin/latex_workshop_hotfix",
         "-i",
-        "../bin/report"
+        "../bin/pyg"
+      ]
+    },
+    {
+      "name": "tectonic",
+      "command": "node",
+      "args": [
+        "../bin/latex_workshop_hotfix",
+        "-i",
+        "../bin/tex"
       ]
     }
   ],
@@ -13,6 +23,7 @@
     {
       "name": "Build LaTeX",
       "tools": [
+        "pygmentise",
         "tectonic"
       ]
     }
